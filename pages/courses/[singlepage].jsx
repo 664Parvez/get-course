@@ -16,7 +16,7 @@ import {BiRightArrowAlt} from "react-icons/bi"
 import singlepageCss from "../../styles/singlepage.module.css"
 
 export async function getServerSideProps () {
-    const response = await fetch("http://localhost:3000/api/courses")
+    const response = await fetch("https://get-course.vercel.app/api/courses")
     const data = await response.json()
 
     return {
