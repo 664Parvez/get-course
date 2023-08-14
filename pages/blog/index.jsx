@@ -12,7 +12,7 @@ import HeadTag from '../../components/head'
 import blogCss from "../../styles/blog.module.css"
 
 export async function getServerSideProps () {
-    const response = await fetch("http://localhost:3000/api/blog")
+    const response = await fetch("https://get-course.vercel.app/api/blog")
     const data = await response.json()
 
     return {
