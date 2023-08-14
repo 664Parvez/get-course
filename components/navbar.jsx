@@ -45,7 +45,7 @@ const Navbar = () => {
         <>
             <div className={navbarChange ? `${NavbarCss.scroll_nav}` : `${NavbarCss.nav}`}>
                 <div className={NavbarCss.logo}>
-                    <Link href=""> {navbarChange ? <Image src={Logo} width="0" height="0" alt=""></Image> : <Image src={WhiteLogo} width="0" height="0" alt=""></Image>}</Link>
+                    <Link href="/"> {navbarChange ? <Image src={Logo} width="0" height="0" alt=""></Image> : <Image src={WhiteLogo} width="0" height="0" alt=""></Image>}</Link>
                 </div>
                 <ul className={NavbarCss.navItems}>
 
