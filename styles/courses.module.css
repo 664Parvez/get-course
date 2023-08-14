@@ -1,0 +1,71 @@
+.course_section h1{
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.course_section h6{
+    color: var(--white-color);
+}
+.course_section h3{
+    font-size: 50px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+#course_box{
+    background-color: var(--white-color);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#course_box h4{
+    font-weight: 600;
+}
+.course_section img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.course_section .rating li{
+    display: inline-block;
+    color: #fc6818;
+}
+.course_section .rating .rating_text{
+    color: var(--normal-font-color);
+}
+.course_section .lesson{
+    margin-bottom: 10px;
+}
+.course_section .lesson li{
+    display: inline-block;
+}
+.course_section h2 span{
+    color: var(--normal-font-color);
+    font-size: 25px;
+}
+.course_section #course_box a{
+    color: var(--white-color);
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
+    font-size: 18px;
+    margin-top: 20px;
+    transition: .3s ease-in-out;
+}
+#course_box a:hover{
+    transform: translateY(-5px);
+    transition: .3s ease-in-out;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .course_section h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .course_section h1{
+        font-size: 40px;
+    }  
+}
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+    .course_section h1{
+        font-size: 40px;
+    }  
+}

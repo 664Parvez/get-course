@@ -1,0 +1,42 @@
+.signupPage #signup_form img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.signupPage #form_control:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    transition: .3s;
+}
+.signupPage h6{
+    color: var(--white-color);
+}
+.signupPage h6 span a{
+    color: var(--white-color);
+}
+.signupPage h2{
+    color: var(--white-color);
+}
+.signupPage p{
+    color: var(--white-color);
+}
+.signupPage #backtosignup a{
+    color: var(--white-color);
+}
+.signupPage #login_btn{
+    background-color: var(--bg-color);
+    transition: .3s;
+}
+.signupPage #login_btn:hover{
+    background: var(--white-color);
+    color: var(--third-color);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-4px);
+    transition: .3s;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .signupPage #signup_form img {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,56 @@
+.subscribe_section{
+    padding: 50px 0;
+    background: var(--white-color);
+    margin-top: 50px;
+}
+.subscribe_section h6{
+    color: var(--normal-font-color);
+}
+.subscribe_section h5{
+    color: var(--title-font-color);
+}
+.subscribe_section h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--title-font-color);
+}
+.subscribe_section p{
+    color: var(--normal-font-color);
+}
+.subscribe{
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.subscribe input{
+    border: none;
+}
+.subscribe input:focus{
+    box-shadow: none;
+}
+.subscribe button{
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
+    color: var(--first-color);
+    transition: .3s ease-in-out;
+    color: var(--white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .subscribe_section h2{
+        font-size: 30px;
+    }
+    .subscribe button {
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .subscribe_section h2{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+    .subscribe_section h2{
+        font-size: 40px;
+    }
+}

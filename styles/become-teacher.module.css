@@ -1,0 +1,119 @@
+#first_section h1{
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 50px;
+}
+#first_section p{
+    color: var(--white-color);
+}
+
+.second_section{
+    padding: 50px 0;
+    margin-top: 50px;
+    background: var(--white-color);
+}
+.second_section h6{
+    color: var(--first-color);
+}
+.second_section h2{
+    color: var(--title-font-color);
+    font-weight: 600;
+    font-size: 50px;
+}
+.second_section p{
+    color: var(--normal-font-color);
+}
+.second_section img {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+.third_section{
+    margin-top: 50px;
+}
+.third_section img{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+.third_section h6{
+    color: var(--white-color);
+}
+.third_section h2{
+    color: var(--white-color);
+    font-weight: 600;
+}
+.third_section input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    padding: 10px 0;
+    margin: 20px 0;
+}
+.third_section input:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: none;
+}
+.third_section input::placeholder{
+    color: var(--white-color);
+    font-size: 15px;
+}
+.third_section textarea:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: none;
+}
+.third_section textarea::placeholder{
+    color: var(--white-color);
+    font-size: 15px;
+}
+.third_section textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: none;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+.third_section textarea:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: none;
+}
+.third_section hr{
+    background-color: var(--white-color);
+}
+
+.third_section button{
+    width: 100%;
+    background-color: var(--white-color);
+    transition: .5s;
+}
+.third_section button:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transition: .5s;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #first_section h1{
+        font-size: 30px;
+    }
+    .second_section h2{
+        font-size: 30px;
+    }
+    .third_section img{
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #first_section h1{
+        font-size: 40px;
+    }
+    .second_section h2{
+        font-size: 40px;
+    }
+}

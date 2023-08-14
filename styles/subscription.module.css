@@ -1,0 +1,52 @@
+.subscripPage h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.plan_box{
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.plan_box h3{
+    color: var(--title-font-color);
+}
+.plan_box h2{
+    color: var(--title-font-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+.plan_box h2 span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.plan_box ul li{
+    font-weight: 500;
+}
+.plan_box small {
+    color: var(--normal-font-color);
+}
+.subscripPage .plan_box a{
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
+    color: var(--white-color);
+    transition: .5s;
+    margin: 30px 0;
+}
+.subscripPage .plan_box a:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transition: .5s;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .subscripPage h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .subscripPage h1{
+        font-size: 40px;
+    }
+}

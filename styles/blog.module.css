@@ -1,0 +1,40 @@
+#blogHeading h1{
+    color: var(--white-color);
+}
+#blogHeading h1 span{
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid var(--white-color);
+    border-radius: 30px;
+}
+#blogHeading p{
+    color: var(--white-color);
+}
+
+#blogSection{
+    margin-top: 50px;
+}
+#blogSection img{
+    width: 100%;
+    height: auto;
+}
+#blogSection ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+#blogSection ul li:first-child{
+    padding-left: 0;
+}
+
+#singlePost h1{
+    color: var(--white-color);
+}
+#singlePost img{
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+    margin: 20px 0;
+}
+#singlePost p{
+    color: var(--white-color);
+}

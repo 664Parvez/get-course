@@ -1,0 +1,140 @@
+#conTitle{
+    background-color: var(--white-color);
+    padding: 5px 0;
+    border-radius: 20px;
+    color: var(--first-color);
+}
+.contact_first h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.contact_second{
+    padding-top: 50px;
+}
+.contact_info_div{
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+.contact_info_div h5{
+    padding: 10px 0;
+}
+.contact_info_div p a{
+    text-decoration: none;
+    color: var(--normal-font-color);
+}
+.contactInfoIcon{
+    font-size: 40px;
+    color: var(--second-color);
+}
+
+.contact_third{
+    padding-top: 50px;
+}
+.contact_third img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+.contact_third p{
+    margin-bottom: 0;
+    color: var(--first-color);
+    background-color: var(--white-color);
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+.contact_third h2{
+    padding: 20px 0;
+    color: var(--white-color);
+    font-size: 50px;
+    font-weight: 600;
+}
+.contact_third label{
+    color: var(--white-color);
+    font-family: var(--first-font);
+}
+.contact_third input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    padding: 10px 0;
+    margin: 20px 0;
+}
+.contact_third input:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: none;
+}
+.contact_third input::placeholder{
+    color: var(--white-color);
+    font-size: 15px;
+}
+.contact_third textarea:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: none;
+}
+.contact_third textarea::placeholder{
+    color: var(--white-color);
+    font-size: 15px;
+}
+.contact_third textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: none;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+.contact_third textarea:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: none;
+}
+.contact_third a{
+    border: 2px solid var(--white-color);
+    width: 100%;
+    color: var(--white-color);
+    transition: .5s;
+}
+.contact_third a:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transition: .5s;
+}
+#map{
+    background-color: var(--white-color);
+}
+#map iframe{
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .contact_first h1{
+        font-size: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contact_info_div{
+        margin-top: 10px;
+    }
+    .contact_third img{
+        margin-bottom: 20px;
+    }
+    .contact_third h2{
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .contact_third img{
+        margin-bottom: 20px;
+    }
+}

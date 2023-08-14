@@ -1,0 +1,306 @@
+.nav{
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    transition: .5 ease-in-out;
+    padding: 2px;
+    z-index: 999;
+}
+.scroll_nav{
+    background-color: var(--white-color);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    transition: .5 ease-in-out;
+    opacity: .9;
+    padding: 2px;
+    -webkit-backdrop-filter: blur(0.8);
+    backdrop-filter: blur(0.8);
+    z-index: 999;
+}
+.logo a img{
+    height: auto;
+    width: 100px;
+}
+
+.nav ul{
+    margin-bottom: 0;
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 23px;
+    color: var(--white-color);
+    padding: 10px 0;
+}
+.nav ul li a{
+    color: var(--white-color);
+}
+.nav ul li:first-child{
+    padding-left: 0;
+}
+.scroll_nav ul{
+    margin-bottom: 0;
+}
+.scroll_nav ul li{
+    display: inline-block;
+    margin-left: 23px;
+    color: var(--normal-font-color);
+    padding: 10px 0;
+}
+.scroll_nav ul li a{
+    color: var(--normal-font-color);
+}
+.scroll_nav ul li:first-child{
+    padding-left: 0;
+}
+
+.navItems li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.course{
+    background-color: #eeeeee;
+    border-radius: 30px;
+}
+.course #courseBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: var(--normal-font-color);
+}
+.course:hover #courseDrop{
+    display: block;
+}
+.course:hover #courseDropScroll{
+    display: block;
+}
+#courseDrop{
+    background-color: var(--white-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 49px;
+    padding: 20px 0;
+    display: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#courseDropScroll{
+    background-color: var(--white-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 49px;
+    padding: 20px 0;
+    display: none;
+}
+#courseDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+    color: var(--first-color);
+}
+#courseDrop ul li a{
+    color: var(--normal-font-color);
+}
+#courseDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+#courseDropScroll ul li a{
+    color: var(--normal-font-color);
+}
+#courseDrop #courseFirst li{
+    font-size: 20px;
+}
+#courseDropScroll #courseFirst li{
+    font-size: 20px;
+}
+
+.cors:hover .corsDrop{
+    display: block;
+}
+.cors:hover .corsDropScroll{
+    display: block;
+}
+.corsDrop{
+    background-color: var(--white-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 49px;
+    padding: 20px 0;
+    display: none;
+}
+.corsDropScroll{
+    background-color: var(--white-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 49px;
+    padding: 20px 0;
+    display: none;
+}
+.corsDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+    color: var(--first-color);
+}
+.corsDrop ul li a{
+    color: var(--normal-font-color);
+}
+.corsDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.corsDropScroll ul li a{
+    color: var(--normal-font-color);
+}
+.corsDrop .corsFirst li a{
+    font-size: 20px;
+}
+.corsDropScroll .corsFirst li a{
+    font-size: 20px;
+}
+
+#navCart{
+    font-size: 19px;
+}
+#navCart li a{
+    text-decoration: none;
+}
+.resMenu{
+    display: none;
+}
+.crossMenu{
+    display: none;
+}
+.adminText{
+    font-size: 14px;
+    font-weight: 600;
+}
+.admin:hover .admin_drop{
+    display: block;
+}
+.admin_drop{
+    position: absolute;
+    background-color: var(--white-color);
+    right: 40px;
+    width: 15%;
+    margin-top: 8px;
+    display: none;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.admin_drop hr{
+    background-color: var(--first-color);
+    margin: 5px 0;
+}
+.admin_drop ul li{
+    display: block;
+    padding: 8px 0;
+}
+.admin_drop ul li a{
+    color: var(--normal-font-color);
+    font-size: 15px;
+}
+.profile{
+    border-radius: 50%;
+    border: 2px solid var(--second-color);
+}
+
+.enroll{
+    padding: 0 !important;
+}
+#enrollBtn marquee{
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, #3B51F4, #B165E7);
+    outline: none;
+    padding: 5px 20px;
+}
+
+.responsiveNav{
+    position: absolute;
+    background: var(--white-color);
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    position: fixed;
+}
+.responsiveNav_hide{
+    display: none;
+}
+.responsiveNav ul{
+    padding-left: 0;
+}
+.responsiveNav ul li{
+    padding: 5px 0;
+}
+.responsiveNav ul li a{
+    text-decoration: none;
+    color: var(--first-color);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .admin{
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+    .nav{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .nav ul li{
+        padding: 0px 0;
+    }
+    .logo a img{
+        padding: 5px;
+    }
+    .scroll_nav{
+        justify-content: space-between;
+        padding: 0 10px;
+        padding-top: 0;
+    }
+    .scroll_nav ul li{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .navItems{
+        display: none;
+    }
+    .resMenu{
+        display: block;
+    }
+    .crossMenu{
+        display: block;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .admin_drop{
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1054px) {
+    .navItems li a{
+        font-size: 12px;
+    }
+    .admin_drop{
+        width: 25%;
+    }
+}

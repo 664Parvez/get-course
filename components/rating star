@@ -1,0 +1,7 @@
+import ReactStars from 'react-stars'
+
+<ReactStars
+                    count={5}
+                    size={20}
+                    color2={'#ffd700'} 
+                  />

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white-color: #ffffff;
+    --first-color: #3B51F4;
+    --second-color: #B165E7;
+    --bg-color: #F9F9FF;
+    --title-font-color: #192335;
+    --normal-font-color: #333333;
+    --first-font: 'Lato', sans-serif;
+    --second-font: 'Ubuntu', sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-color);
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--second-font);
+    color: var(--title-font-color);
+}
+p, a, label{
+    font-family: var(--first-font);
+}
+
+span{
+    font-family: var(--first-font);
+}
+
+.gap{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+
+.nav-pills button{
+    color: var(--white-color);
+    border-radius: 40px !important;
+}
+.nav-pills button.active{
+    background-color: var(--white-color) !important;
+}
+.nav-pills .nav-link.active{
+    color: var(--normal-font-color);
+}
+.nav-link{
+    color: var(--bg-color);
+}

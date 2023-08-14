@@ -1,0 +1,88 @@
+.cartPage h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.coupone_code{
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+.coupone_code button{
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
+    color: var(--white-color);
+    transition: .5s;
+}
+.coupone_code button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+.cart_summary{
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+.cartPage a{
+    border: 2px solid var(--white-color);
+    width: 100%;
+    color: var(--white-color);
+    transition: .5s;
+    margin-top: 30px;
+}
+.cartPage a:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transition: .5s;
+}
+.cartPage img{
+    border-radius: 10px;
+    height: 70px;
+    width: 100px;
+}
+#number_form{
+    width: 100px;
+    height: 40px;
+}
+#cartTable ul li{
+    display: inline-block;
+}
+
+#cartTable ul li input{
+    padding-top: 2px;
+    border-radius: 0;
+    padding-bottom: 7px;
+    height: 38px;
+}
+#cartTable ul li button{
+    width: 40px;
+    border-radius: 0;
+    padding: 6px 0;
+}
+#cartTable td{
+    color: var(--white-color);
+}
+#cartTable th{
+    color: var(--white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .cartPage h1{
+        font-size: 30px;
+    }
+    #cartTable ul li{
+        display: inline-block;
+    }
+    .cart_summary{
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .cartPage h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+    .cartPage h1{
+        font-size: 40px;
+    }
+}
