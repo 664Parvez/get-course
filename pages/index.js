@@ -55,7 +55,7 @@ import teac4 from "../public/home-teacher/team-04.jpg"
 const inter = Inter({ subsets: ['latin'] })
 
 export async function getServerSideProps () {
-  const response = await fetch("get-course.vercel.app/api/blog")
+  const response = await fetch("https://get-course.vercel.app/api/blog")
   const data = await response.json()
 
   return {
