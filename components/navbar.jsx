@@ -109,7 +109,7 @@ const Navbar = () => {
                 
                 <ul id={NavbarCss.navCart} className="align-items-center">
                     <li><BiSearch /></li>
-                    <li><Link href=""><BiShoppingBag /></Link></li>
+                    <li><Link href="/cart"><BiShoppingBag /></Link></li>
                     <li className={NavbarCss.admin}><Link href=""><BiUser /><span className={NavbarCss.adminText}> Admin</span></Link>
                         <div className={NavbarCss.admin_drop}>
                             <div className="p-4">
