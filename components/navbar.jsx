@@ -143,12 +143,12 @@ const Navbar = () => {
             </div>
                 <div className={resNav ? `${NavbarCss.responsiveNav}` : `${NavbarCss.responsiveNav_hide}` }>
                     <ul>
-                        <li><Link href="">Home</Link></li>
-                        <li><Link href="">Courses</Link></li>
-                        <li><Link href="">About Us</Link></li>
-                        <li><Link href="">Become a Teacher</Link></li>
-                        <li><Link href="">Blog</Link></li>
-                        <li><Link href="">Contact Us</Link></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/courses">Courses</Link></li>
+                        <li><Link href="about-us">About Us</Link></li>
+                        <li><Link href="/become-a-teacher">Become a Teacher</Link></li>
+                        <li><Link href="/blog">Blog</Link></li>
+                        <li><Link href="/contact-us">Contact Us</Link></li>
                         <li><Link href='' id={NavbarCss.enrollBtn} className="btn"><marquee>Enroll Now</marquee></Link></li>
                     </ul>
                 </div>
